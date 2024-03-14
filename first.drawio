@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T12:08:39.746Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="0cPZaNeYksCbH0aGyo4b" version="24.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-14T12:32:08.571Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="2lxyvDJ4uYMk0unXcvbx" version="24.0.6" type="github">
   <diagram name="Page-1" id="3--Iqgmd6CmRDouDWdKg">
     <mxGraphModel dx="1093" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -392,10 +392,88 @@
           <mxGeometry x="720" y="1438.75" width="100" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="C-q-gXYCXygW1UySJLNP-212" value="Bruker1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="1580" width="60" height="30" as="geometry" />
+          <mxGeometry x="287" y="1590" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="C-q-gXYCXygW1UySJLNP-214" value="Bruker2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1570" width="60" height="30" as="geometry" />
+          <mxGeometry x="593" y="1590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-216" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="2240" as="sourcePoint" />
+            <mxPoint x="860" y="2240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-217" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="1380" as="sourcePoint" />
+            <mxPoint x="860" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-218" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="583" as="sourcePoint" />
+            <mxPoint x="830" y="583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-220" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Flytdiagram:Gjør ett trekk&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="2270" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-221" value="Gjøre et move" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="2320" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-222" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="C-q-gXYCXygW1UySJLNP-221">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="2350" as="sourcePoint" />
+            <mxPoint x="390" y="2360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-224" value="Legg til i Board" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-225" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="C-q-gXYCXygW1UySJLNP-224">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="2480" as="sourcePoint" />
+            <mxPoint x="450" y="2450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-226" value="Oppdater side" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-228" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2510" as="sourcePoint" />
+            <mxPoint x="450" y="2570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-229" value="Send til Backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-236" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2630" as="sourcePoint" />
+            <mxPoint x="450" y="2690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-237" value="Send til andre spiller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-239" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="C-q-gXYCXygW1UySJLNP-237">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="2690" as="sourcePoint" />
+            <mxPoint x="450" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-240" value="Oppdater motstander Board" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="394" y="2810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-241" value="Motstander gjøre move" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="2923" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="C-q-gXYCXygW1UySJLNP-242" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="C-q-gXYCXygW1UySJLNP-241">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="2870" as="sourcePoint" />
+            <mxPoint x="500" y="2820" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
